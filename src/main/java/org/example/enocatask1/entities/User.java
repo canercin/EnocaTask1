@@ -79,4 +79,9 @@ public class User implements UserDetails {
     public boolean isEnabled() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return name + surname +"isimli" + email + "email'li kullanıcı eklendi.";
+    }
 }
